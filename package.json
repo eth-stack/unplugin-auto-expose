@@ -8,8 +8,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --splitting --clean",
     "prepublishOnly": "npm run build",
-    "release": "bumpp --commit --push --tag && npm publish",
-    "prepack": "npm run build"
+    "release": "bumpp --commit --push --tag && npm publish"
   },
   "homepage": "https://github.com/cawa-93/unplugin-auto-expose#readme",
   "repository": {
